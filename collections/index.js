@@ -16,7 +16,7 @@ let ObjectId = Schema.Types.ObjectId;
 let userSchema = Schema({
   account: {
     type: 'String',
-    requried: true
+    requrie: true
   },
   nickName: {
     type: 'String',
@@ -24,7 +24,7 @@ let userSchema = Schema({
   },
   password: {
     type: 'String',
-    required: true
+    require: true
   },
   gender: {
     type: 'Boolean',
